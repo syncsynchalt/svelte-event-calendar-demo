@@ -4,6 +4,7 @@
 
     let plugins = [TimeGrid];
     let options: Calendar.Options = {
+        view: 'timeGridWeek',
         allDaySlot: false,
     };
 
