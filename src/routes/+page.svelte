@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Cal from "../Cal.svelte";
 </script>
 
