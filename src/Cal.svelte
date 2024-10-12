@@ -1,14 +1,14 @@
 <script>
-    import Calendar from '@event-calendar/core';
-    import TimeGrid from '@event-calendar/time-grid';
+    import Calendar from "@event-calendar/core";
+    import TimeGrid from "@event-calendar/time-grid";
 
     let plugins = [TimeGrid];
     let options = {
-        view: 'timeGridWeek'
+        view: "timeGridWeek",
     };
 
     function updateOptions() {
-        options.slotDuration = '01:00';
+        options.slotDuration = "01:00";
     }
 </script>
 
